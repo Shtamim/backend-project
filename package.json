@@ -1,0 +1,16 @@
+{
+  "name": "vscode",
+  "version": "1.0.0",
+  "description": "a prototype of backend",
+  "keywords": [
+    "javascritpt",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "shoyaib hasan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
