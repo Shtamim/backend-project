@@ -2,7 +2,7 @@
   "name": "vscode",
   "version": "1.0.0",
   "description": "a prototype of backend",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "javascritpt",
     "backend"
@@ -11,6 +11,11 @@
   "author": "shoyaib hasan",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
   }
 }
