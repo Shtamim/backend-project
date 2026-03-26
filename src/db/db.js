@@ -1,3 +1,6 @@
+import dns from "node:dns/promises";
+dns.setServers(["1.1.1.1"]);
+
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
